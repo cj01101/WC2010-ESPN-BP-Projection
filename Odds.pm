@@ -147,21 +147,21 @@ sub get_odds
         },
         H => {
             win => {
-                Spain       => '1/4',
-                Chile       => '6',
-                Switzerland => '14',
-                Honduras    => '66',
+                Spain       => '79/40',
+                Chile       => '4',
+                Switzerland => '9',
+                Honduras    => '84',
             },
             place => {
                 Spain       => '15/4',
-                Chile       => '23/20',
+                Chile       => '15/13',
                 Switzerland => '9/4',
                 Honduras    => '7',
             },
             qualify => {
                 Spain       => '1/14',
-                Chile       => '4/6',
-                Switzerland => '13/8',
+                Chile       => '3/5',
+                Switzerland => '6/4',
                 Honduras    => '6',
             },
         },
