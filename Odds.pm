@@ -1,5 +1,7 @@
 package Odds;
 
+# odds from http://www.oddschecker.com/football/internationals/world-cup
+
 sub get_odds
 {
     return {
@@ -117,10 +119,10 @@ sub get_odds
                 'New Zealand' => '20',
             },
             qualify => {
-                Italy         => '1/9',
-                Paraguay      => '3/10',
-                Slovakia      => '11/4',
-                'New Zealand' => '16',
+                Italy         => '1/12',
+                Paraguay      => '2/7',
+                Slovakia      => '3',
+                'New Zealand' => '12',
             },
         },
         G => {
@@ -138,8 +140,8 @@ sub get_odds
             },
             qualify => {
                 Brazil        => '1/9',
-                Portugal      => '6/5',
-                'Ivory Coast' => '8/11',
+                Portugal      => '4/6',
+                'Ivory Coast' => '1',
                 'North Korea' => '25',
             },
         },

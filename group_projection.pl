@@ -3,8 +3,6 @@
 use Odds;
 use Picks;
 
-# odds from http://www.oddschecker.com/football/internationals/world-cup
-
 my $odds = Odds->get_odds();
 my $picks = Picks->get_picks();
 
