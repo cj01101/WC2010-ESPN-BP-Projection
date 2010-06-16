@@ -3,3 +3,7 @@ How are my picks doing against others in my group?  How do they compare against 
 Use WC odds (maintained by hand) to calculate projections for each set of picks.
 
 Only works for the group stages.
+
+To run it:
+
+./group_projection.pl
