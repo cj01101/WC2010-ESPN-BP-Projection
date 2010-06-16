@@ -133,10 +133,10 @@ sub get_odds
                 'North Korea' => '200',
             },
             place => {
-                Brazil        => '12/5',
-                Portugal      => '5/4',
-                'Ivory Coast' => '2',
-                'North Korea' => '28',
+                Brazil        => '15/4',
+                Portugal      => '13/10',
+                'Ivory Coast' => '8/5',
+                'North Korea' => '12',
             },
             qualify => {
                 Brazil        => '1/9',
@@ -147,10 +147,10 @@ sub get_odds
         },
         H => {
             win => {
-                Spain       => '79/40',
-                Chile       => '4',
-                Switzerland => '9',
-                Honduras    => '84',
+                Spain       => '2',
+                Chile       => '9/4',
+                Switzerland => '5/4',
+                Honduras    => '100',
             },
             place => {
                 Spain       => '15/4',
@@ -159,10 +159,10 @@ sub get_odds
                 Honduras    => '7',
             },
             qualify => {
-                Spain       => '1/14',
-                Chile       => '3/5',
-                Switzerland => '6/4',
-                Honduras    => '6',
+                Spain       => '4/11',
+                Chile       => '8/11',
+                Switzerland => '1/3',
+                Honduras    => '16',
             },
         },
     };
