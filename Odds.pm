@@ -27,10 +27,10 @@ sub get_odds
         },
         B => {
             win => {
-                Argentina     => '1/19',
-                'South Korea' => '40',
-                Nigeria       => '25',
-                Greece        => '100',
+                Argentina     => '1/41',
+                'South Korea' => '66',
+                Nigeria       => '40',
+                Greece        => '66',
             },
             place => {
                 Argentina     => '13/4',
@@ -40,9 +40,9 @@ sub get_odds
             },
             qualify => {
                 Argentina     => '1/10',
-                'South Korea' => '2',
-                Nigeria       => '15/13',
-                Greece        => '9/2',
+                'South Korea' => '4/6',
+                Nigeria       => '39/11',
+                Greece        => '7/2',
             },
         },
         C => {
