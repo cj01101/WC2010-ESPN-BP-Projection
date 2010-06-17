@@ -4,7 +4,7 @@ sub get_picks
 {
     # NOTE: the keys of this hash should be the entry name.  I have made them anonymous
     return {
-        'A' => {
+        'CJ' => {
             paid => 1,
             champion => 'Netherlands',
             group_picks => {
@@ -18,7 +18,7 @@ sub get_picks
                 H => [ 'Spain', 'Chile' ],
             },
         },
-        'B' => {
+        'DN' => {
             paid => 1,
             champion => 'Brazil',
             group_picks => {
@@ -32,7 +32,7 @@ sub get_picks
                 H => [ 'Spain', 'Switzerland' ],
             },
         },
-        'C' => {
+        'KCB' => {
             champion => 'Italy',
             group_picks => {
                 A => [ 'France', 'Mexico' ],
@@ -45,7 +45,7 @@ sub get_picks
                 H => [ 'Chile', 'Spain' ],
             },
         },
-        'D' => {
+        'BW' => {
             paid => 1,
             champion => 'Spain',
             group_picks => {
@@ -59,7 +59,7 @@ sub get_picks
                 H => [ 'Spain', 'Honduras' ],
             },
         },
-        'E' => {
+        'TS' => {
             paid => 1,
             champion => 'Brazil',
             group_picks => {
@@ -73,7 +73,7 @@ sub get_picks
                 H => [ 'Spain', 'Honduras' ],
             },
         },
-        'F' => {
+        'CJ2' => {
             paid => 1,
             champion => 'Brazil',
             group_picks => {
@@ -87,7 +87,7 @@ sub get_picks
                 H => [ 'Spain', 'Chile' ],
             },
         },
-        'G' => {
+        'PW' => {
             paid => 1,
             champion => 'England',
             group_picks => {
@@ -101,7 +101,7 @@ sub get_picks
                 H => [ 'Spain', 'Chile' ],
             },
         },
-        'H' => {
+        'TB' => {
             champion => 'Brazil',
             group_picks => {
                 A => [ 'Mexico', 'France' ],
@@ -114,7 +114,7 @@ sub get_picks
                 H => [ 'Spain', 'Chile' ],
             },
         },
-        'I' => {
+        'RA' => {
             paid => 1,
             champion => 'Spain',
             group_picks => {
@@ -128,7 +128,7 @@ sub get_picks
                 H => [ 'Spain', 'Honduras' ],
             },
         },
-        'J' => {
+        'LL' => {
             champion => 'England',
             group_picks => {
                 A => [ 'France', 'Mexico' ],
@@ -141,7 +141,7 @@ sub get_picks
                 H => [ 'Spain', 'Honduras' ],
             },
         },
-        'K' => {
+        'BN' => {
             paid => 1,
             champion => 'Brazil',
             group_picks => {
@@ -155,7 +155,7 @@ sub get_picks
                 H => [ 'Spain', 'Chile' ],
             },
         },
-        'L' => {
+        'JA' => {
             paid => 1,
             champion => 'Argentina',
             group_picks => {
@@ -169,7 +169,7 @@ sub get_picks
                 H => [ 'Spain', 'Chile' ],
             },
         },
-        'M' => {
+        'AA' => {
             champion => 'Spain',
             group_picks => {
                 A => [ 'Mexico', 'France' ],
@@ -182,7 +182,7 @@ sub get_picks
                 H => [ 'Spain', 'Chile' ],
             },
         },
-        'N' => {
+        'DN2' => {
             paid => 1,
             champion => 'Italy',
             group_picks => {
@@ -196,7 +196,7 @@ sub get_picks
                 H => [ 'Spain', 'Switzerland' ],
             },
         },
-        'O' => {
+        'MN' => {
             champion => 'Argentina',
             group_picks => {
                 A => [ 'France', 'South Africa' ],
@@ -209,7 +209,7 @@ sub get_picks
                 H => [ 'Spain', 'Switzerland' ],
             },
         },
-        '(Favorites)' => { # a hypothetical entry of all favorites
+        '(Fav)' => { # a hypothetical entry of all favorites
             champion => '',
             group_picks => {
                 A => [ 'France', 'Mexico' ],
