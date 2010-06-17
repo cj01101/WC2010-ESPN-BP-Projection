@@ -43,7 +43,9 @@ sub get_percentage # translate 2/1 => 0.33
 {
     my $odds = shift;
 
-    if ( $odds =~ /\// ) {
+    if ( ! $odds ) {
+        return 0;
+    } elsif ( $odds =~ /\// ) {
         my ( $numerator, $denominator ) = split( /\//, $odds );
         return 1 / ( 1 + ( $numerator / $denominator ) );
     } else {
