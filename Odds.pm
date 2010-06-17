@@ -29,7 +29,7 @@ sub get_odds
             win => {
                 Argentina     => '1/41',
                 'South Korea' => '66',
-                Nigeria       => '40',
+                Nigeria       => undef,
                 Greece        => '66',
             },
             place => {
