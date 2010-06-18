@@ -53,16 +53,16 @@ sub get_odds
                 Algeria  => '100',
             },
             place => {
-                England  => '9/4',
-                USA      => '6/5',
-                Slovenia => '9/4',
-                Algeria  => '25',
+                England  => '7/2',
+                USA      => '13/10',
+                Slovenia => '5/2',
+                Algeria  => '9/2',
             },
             qualify => {
-                England  => '1/10',
+                England  => '1/16',
                 USA      => '7/10',
                 Slovenia => '7/4',
-                Algeria  => '20',
+                Algeria  => '7/2',
             },
         },
         D => {
