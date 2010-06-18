@@ -19,10 +19,10 @@ sub get_odds
                 'South Africa' => '13/4',
             },
             qualify => {
-                France         => '4/11',
-                Uruguay        => '1',
-                Mexico         => '5/6',
-                'South Africa' => '9/5',
+                France         => '10',
+                Uruguay        => '1/25',
+                Mexico         => '1/16',
+                'South Africa' => '33',
             },
         },
         B => {
@@ -67,10 +67,10 @@ sub get_odds
         },
         D => {
             win => {
-                Germany   => '1/4',
-                Ghana     => '15/4',
-                Serbia    => '33',
-                Australia => '150',
+                Germany   => '4/6',
+                Ghana     => '5/2',
+                Serbia    => '8',
+                Australia => '40',
             },
             place => {
                 Germany   => '11/4',
@@ -79,10 +79,10 @@ sub get_odds
                 Australia => '4',
             },
             qualify => {
-                Germany   => '1/5',
-                Ghana     => '7/5',
-                Serbia    => '4',
-                Australia => '7',
+                Germany   => '2/7',
+                Ghana     => '8/13',
+                Serbia    => '8/11',
+                Australia => '9',
             },
         },
         E => {
