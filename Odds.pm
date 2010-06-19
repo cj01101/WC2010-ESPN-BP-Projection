@@ -88,19 +88,19 @@ sub get_odds
         E => {
             win => {
                 Netherlands => '1/16',
-                Cameroon    => '25',
+                Cameroon    => undef,
                 Japan       => '33',
                 Denmark     => '33',
             },
             place => {
                 Netherlands => '3',
-                Cameroon    => '2',
+                Cameroon    => undef,
                 Japan       => '9/2',
                 Denmark     => '2',
             },
             qualify => {
-                Netherlands => '1/100',
-                Cameroon    => '21/5',
+                Netherlands => 0,
+                Cameroon    => undef,
                 Japan       => '1',
                 Denmark     => '17/10',
             },
