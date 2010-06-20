@@ -107,10 +107,10 @@ sub get_odds
         },
         F => {
             win => {
-                Italy         => '5/4',
-                Paraguay      => '5/6',
-                Slovakia      => '300',
-                'New Zealand' => '100',
+                Italy         => '11/2',
+                Paraguay      => '1/4',
+                Slovakia      => undef,
+                'New Zealand' => '16',
             },
             place => {
                 Italy         => '5/2',
@@ -119,10 +119,10 @@ sub get_odds
                 'New Zealand' => '20',
             },
             qualify => {
-                Italy         => '1/19',
-                Paraguay      => '1/25',
-                Slovakia      => '14',
-                'New Zealand' => '8',
+                Italy         => '2/9',
+                Paraguay      => '1/19',
+                Slovakia      => '13/2',
+                'New Zealand' => '6',
             },
         },
         G => {
