@@ -73,10 +73,10 @@ sub get_odds
                 Australia => '250',
             },
             place => {
-                Germany   => '11/4',
-                Ghana     => '13/5',
-                Serbia    => '15/8',
-                Australia => '4',
+                Germany   => '11/2',
+                Ghana     => '2',
+                Serbia    => '5/6',
+                Australia => '14',
             },
             qualify => {
                 Germany   => '1/4',
@@ -107,10 +107,10 @@ sub get_odds
         },
         F => {
             win => {
-                Italy         => '4/6',
-                Paraguay      => '21/10',
-                Slovakia      => '11',
-                'New Zealand' => '66',
+                Italy         => '5/4',
+                Paraguay      => '5/6',
+                Slovakia      => '300',
+                'New Zealand' => '100',
             },
             place => {
                 Italy         => '5/2',
@@ -119,10 +119,10 @@ sub get_odds
                 'New Zealand' => '20',
             },
             qualify => {
-                Italy         => '1/12',
-                Paraguay      => '2/7',
-                Slovakia      => '3',
-                'New Zealand' => '12',
+                Italy         => '1/19',
+                Paraguay      => '1/25',
+                Slovakia      => '14',
+                'New Zealand' => '8',
             },
         },
         G => {
