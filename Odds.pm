@@ -53,10 +53,10 @@ sub get_odds
                 Algeria  => undef,
             },
             place => {
-                England  => '7/2',
-                USA      => '13/10',
-                Slovenia => '5/2',
-                Algeria  => '9/2',
+                England  => '10/3',
+                USA      => '2',
+                Slovenia => '11/5',
+                Algeria  => '4',
             },
             qualify => {
                 England  => '8/15',
@@ -113,10 +113,10 @@ sub get_odds
                 'New Zealand' => '16',
             },
             place => {
-                Italy         => '5/2',
-                Paraguay      => '13/10',
-                Slovakia      => '21/10',
-                'New Zealand' => '20',
+                Italy         => '4/9',
+                Paraguay      => '11/2',
+                Slovakia      => '11/2',
+                'New Zealand' => '11',
             },
             qualify => {
                 Italy         => '2/9',
@@ -147,22 +147,22 @@ sub get_odds
         },
         H => {
             win => {
-                Spain       => '5/6',
-                Chile       => '2',
-                Switzerland => '7',
-                Honduras    => '150',
+                Spain       => '8/11',
+                Chile       => '21/10',
+                Switzerland => '9',
+                Honduras    => undef,
             },
             place => {
-                Spain       => '23/20',
-                Chile       => '23/20',
+                Spain       => '15/4',
+                Chile       => '15/13',
                 Switzerland => '9/4',
                 Honduras    => '7',
             },
             qualify => {
-                Spain       => '2/5',
+                Spain       => '2/7',
                 Chile       => '3/5',
                 Switzerland => '6/4',
-                Honduras    => '33',
+                Honduras    => '100',
             },
         },
     };
