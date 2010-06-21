@@ -127,10 +127,10 @@ sub get_odds
         },
         G => {
             win => {
-                Brazil        => '1/8',
-                Portugal      => '9/2',
+                Brazil        => '3/10',
+                Portugal      => '3',
                 'Ivory Coast' => undef,
-                'North Korea' => '200',
+                'North Korea' => undef,
             },
             place => {
                 Brazil        => '12/5',
@@ -141,7 +141,7 @@ sub get_odds
             qualify => {
                 Brazil        => 0,
                 Portugal      => '8/15',
-                'Ivory Coast' => '10/11',
+                'Ivory Coast' => '20',
                 'North Korea' => '22',
             },
         },
