@@ -8,21 +8,21 @@ sub get_odds
         A => {
             win => {
                 France         => undef,
-                Uruguay        => '1/5',
-                Mexico         => '3',
+                Uruguay        => 0,
+                Mexico         => undef,
                 'South Africa' => undef,
             },
             place => {
-                France         => '5/2',
-                Uruguay        => '5/2',
-                Mexico         => '5/2',
-                'South Africa' => '13/4',
+                France         => undef,
+                Uruguay        => undef,
+                Mexico         => 0,
+                'South Africa' => undef,
             },
             qualify => {
-                France         => '10',
-                Uruguay        => '1/25',
-                Mexico         => '1/16',
-                'South Africa' => '33',
+                France         => undef,
+                Uruguay        => 0,
+                Mexico         => 0,
+                'South Africa' => undef,
             },
         },
         B => {
