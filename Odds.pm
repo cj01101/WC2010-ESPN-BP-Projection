@@ -47,22 +47,22 @@ sub get_odds
         },
         C => {
             win => {
-                England  => '1',
-                USA      => '2',
-                Slovenia => '5/2',
+                England  => undef,
+                USA      => 0,
+                Slovenia => undef,
                 Algeria  => undef,
             },
             place => {
-                England  => '10/3',
-                USA      => '2',
-                Slovenia => '11/5',
-                Algeria  => '4',
+                England  => 0,
+                USA      => undef,
+                Slovenia => undef,
+                Algeria  => undef,
             },
             qualify => {
-                England  => '8/15',
-                USA      => '8/13',
-                Slovenia => '4/7',
-                Algeria  => '9/2',
+                England  => 0,
+                USA      => 0,
+                Slovenia => undef,
+                Algeria  => undef,
             },
         },
         D => {
