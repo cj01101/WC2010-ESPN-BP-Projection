@@ -87,22 +87,22 @@ sub get_odds
         },
         E => {
             win => {
-                Netherlands => '1/25',
+                Netherlands => 0,
                 Cameroon    => undef,
-                Japan       => '25',
-                Denmark     => '25',
+                Japan       => undef,
+                Denmark     => undef,
             },
             place => {
-                Netherlands => '3',
+                Netherlands => undef,
                 Cameroon    => undef,
-                Japan       => '9/2',
-                Denmark     => '2',
+                Japan       => 0,
+                Denmark     => undef,
             },
             qualify => {
                 Netherlands => 0,
                 Cameroon    => undef,
-                Japan       => '8/11',
-                Denmark     => '11/10',
+                Japan       => 0,
+                Denmark     => undef,
             },
         },
         F => {
