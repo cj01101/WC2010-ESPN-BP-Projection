@@ -64,7 +64,7 @@ sub get_group_picks
             champion => 'Brazil',
             group_picks => {
                 A => [ 'Mexico', 'France' ],
-                B => [ 'Argentina', 'Greece' ],
+                B => [ 'Greece', 'Argentina' ],
                 C => [ 'England', 'Algeria' ],
                 D => [ 'Germany', 'Ghana' ],
                 E => [ 'Netherlands', 'Cameroon' ],
@@ -150,7 +150,7 @@ sub get_group_picks
                 C => [ 'England', 'USA' ],
                 D => [ 'Germany', 'Australia' ],
                 E => [ 'Netherlands', 'Cameroon' ],
-                F => [ 'Italy', 'Paraguay' ],
+                F => [ 'Paraguay', 'Italy' ],
                 G => [ 'Brazil', 'Ivory Coast' ],
                 H => [ 'Spain', 'Chile' ],
             },
@@ -231,7 +231,7 @@ sub get_bracket_picks
         'CJ' => {
             paid => 1,
             champion => 'Netherlands',
-            group_points => 14,
+            group_points => 18,
             picks => {
                 0 => {
                     left => [ qw( France England Netherlands Brazil ) ],
@@ -253,7 +253,7 @@ sub get_bracket_picks
         'DN' => {
             paid => 1,
             champion => 'Brazil',
-            group_points => 13,
+            group_points => 15,
             picks => {
                 0 => {
                     left => [ qw( Uruguay England Italy Brazil ) ],
@@ -274,7 +274,7 @@ sub get_bracket_picks
         },
         'KCB' => {
             champion => 'Italy',
-            group_points => 14,
+            group_points => 16,
             picks => {
                 0 => {
                     left => [ qw( France Slovenia Slovenia Spain ) ],
@@ -296,7 +296,7 @@ sub get_bracket_picks
         'BW' => {
             paid => 1,
             champion => 'Spain',
-            group_points => 15,
+            group_points => 17,
             picks => {
                 0 => {
                     left => [ qw( France England Netherlands Brazil ) ],
@@ -318,7 +318,7 @@ sub get_bracket_picks
         'TS' => {
             paid => 1,
             champion => 'Brazil',
-            group_points => 15,
+            group_points => 17,
             picks => {
                 0 => {
                     left => [ qw( Argentina England Netherlands Brazil ) ],
@@ -340,7 +340,7 @@ sub get_bracket_picks
         'CJ2' => {
             paid => 1,
             champion => 'Brazil',
-            group_points => 16,
+            group_points => 20,
             picks => {
                 0 => {
                     left => [ qw( France Serbia Netherlands Brazil ) ],
@@ -362,7 +362,7 @@ sub get_bracket_picks
         'PW' => {
             paid => 1,
             champion => 'England',
-            group_points => 14,
+            group_points => 18,
             picks => {
                 0 => {
                     left => [ qw( France England Netherlands Brazil ) ],
@@ -383,7 +383,7 @@ sub get_bracket_picks
         },
         'TB' => {
             champion => 'Brazil',
-            group_points => 14,
+            group_points => 18,
             picks => {
                 0 => {
                     left => [ qw( Mexico England Netherlands Brazil ) ],
@@ -405,7 +405,7 @@ sub get_bracket_picks
         'RA' => {
             paid => 1,
             champion => 'Spain',
-            group_points => 17,
+            group_points => 19,
             picks => {
                 0 => {
                     left => [ 'South Korea', qw( Ghana Netherlands Brazil ) ],
@@ -426,7 +426,7 @@ sub get_bracket_picks
         },
         'LL' => {
             champion => 'England',
-            group_points => 15,
+            group_points => 17,
             picks => {
                 0 => {
                     left => [ qw( France England Cameroon Brazil ) ],
@@ -448,7 +448,7 @@ sub get_bracket_picks
         'BN' => {
             paid => 1,
             champion => 'Brazil',
-            group_points => 13,
+            group_points => 17,
             picks => {
                 0 => {
                     left => [ qw( Mexico England Italy Brazil ) ],
@@ -470,7 +470,7 @@ sub get_bracket_picks
         'JA' => {
             paid => 1,
             champion => 'Argentina',
-            group_points => 15,
+            group_points => 19,
             picks => {
                 0 => {
                     left => [ qw( Mexico England Netherlands Brazil ) ],
@@ -491,7 +491,7 @@ sub get_bracket_picks
         },
         'AA' => {
             champion => 'Spain',
-            group_points => 15,
+            group_points => 19,
             picks => {
                 0 => {
                     left => [ qw( Mexico England Netherlands Brazil ) ],
@@ -513,7 +513,7 @@ sub get_bracket_picks
         'DN2' => {
             paid => 1,
             champion => 'Italy',
-            group_points => 17,
+            group_points => 19,
             picks => {
                 0 => {
                     left => [ 'South Korea', qw( Germany Paraguay Brazil ) ],
@@ -534,7 +534,7 @@ sub get_bracket_picks
         },
         'MN' => {
             champion => 'Argentina',
-            group_points => 13,
+            group_points => 15,
             picks => {
                 0 => {
                     left => [ qw( France England Paraguay Brazil ) ],
