@@ -127,22 +127,22 @@ sub get_group_odds
         },
         G => {
             win => {
-                Brazil        => '3/10',
-                Portugal      => '3',
+                Brazil        => 0,
+                Portugal      => undef,
                 'Ivory Coast' => undef,
                 'North Korea' => undef,
             },
             place => {
-                Brazil        => '12/5',
-                Portugal      => '5/4',
-                'Ivory Coast' => '2',
-                'North Korea' => '28',
+                Brazil        => undef,
+                Portugal      => 0,
+                'Ivory Coast' => undef,
+                'North Korea' => undef,
             },
             qualify => {
                 Brazil        => 0,
-                Portugal      => '8/15',
-                'Ivory Coast' => '20',
-                'North Korea' => '22',
+                Portugal      => 0,
+                'Ivory Coast' => undef,
+                'North Korea' => undef,
             },
         },
         H => {
