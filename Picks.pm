@@ -1,6 +1,6 @@
 package Picks;
 
-sub get_picks
+sub get_group_picks
 {
     # NOTE: the keys of this hash should be the entry name.  I have made them anonymous
     return {
@@ -220,6 +220,337 @@ sub get_picks
                 F => [ 'Italy', 'Paraguay' ],
                 G => [ 'Brazil', 'Portugal' ],
                 H => [ 'Spain', 'Chile' ],
+            },
+        },
+    };
+}
+
+sub get_bracket_picks
+{
+    return {
+        'CJ' => {
+            paid => 1,
+            champion => 'Netherlands',
+            group_points => 10,
+            picks => {
+                0 => {
+                    left => [ qw( France England Netherlands Brazil ) ],
+                    right => [ qw( Argentina USA Italy Spain ) ],
+                },
+                1 => {
+                    left => [ qw( England Netherlands ) ],
+                    right => [ qw( Argentina Spain ) ],
+                },
+                2 => {
+                    left => [ 'Netherlands' ],
+                    right => [ 'Spain' ],
+                },
+                3 => {
+                    champion => [ 'Netherlands' ],
+                },
+            },
+        },
+        'DN' => {
+            paid => 1,
+            champion => 'Brazil',
+            group_points => 11,
+            picks => {
+                0 => {
+                    left => [ qw( Uruguay England Italy Brazil ) ],
+                    right => [ qw( Argentina Germany Paraguay Spain ) ],
+                },
+                1 => {
+                    left => [ qw( England Brazil ) ],
+                    right => [ qw( Germany Spain ) ],
+                },
+                2 => {
+                    left => [ 'Brazil' ],
+                    right => [ 'Spain' ],
+                },
+                3 => {
+                    champion => [ 'Brazil' ],
+                },
+            },
+        },
+        'KCB' => {
+            champion => 'Italy',
+            group_points => 12,
+            picks => {
+                0 => {
+                    left => [ qw( France Slovenia Slovenia Spain ) ],
+                    right => [ qw( Argentina England Italy Portugal ) ],
+                },
+                1 => {
+                    left => [ qw( France Spain ) ],
+                    right => [ qw( England Italy ) ],
+                },
+                2 => {
+                    left => [ 'Spain' ],
+                    right => [ 'Italy' ],
+                },
+                3 => {
+                    champion => [ 'Italy' ],
+                },
+            },
+        },
+        'BW' => {
+            paid => 1,
+            champion => 'Spain',
+            group_points => 11,
+            picks => {
+                0 => {
+                    left => [ qw( France England Netherlands Brazil ) ],
+                    right => [ qw( Argentina USA Italy Spain ) ],
+                },
+                1 => {
+                    left => [ qw( England Brazil ) ],
+                    right => [ qw( Argentina Spain ) ],
+                },
+                2 => {
+                    left => [ 'Brazil' ],
+                    right => [ 'Spain' ],
+                },
+                3 => {
+                    champion => [ 'Spain' ],
+                },
+            },
+        },
+        'TS' => {
+            paid => 1,
+            champion => 'Brazil',
+            group_points => 11,
+            picks => {
+                0 => {
+                    left => [ qw( Argentina England Netherlands Brazil ) ],
+                    right => [ qw( France Germany Italy Spain ) ],
+                },
+                1 => {
+                    left => [ qw( England Brazil ) ],
+                    right => [ qw( Germany Italy ) ],
+                },
+                2 => {
+                    left => [ 'Brazil' ],
+                    right => [ 'Italy' ],
+                },
+                3 => {
+                    champion => [ 'Brazil' ],
+                },
+            },
+        },
+        'CJ2' => {
+            paid => 1,
+            champion => 'Brazil',
+            group_points => 12,
+            picks => {
+                0 => {
+                    left => [ qw( France Serbia Netherlands Brazil ) ],
+                    right => [ qw( Argentina Germany Cameroon Spain ) ],
+                },
+                1 => {
+                    left => [ qw( France Brazil ) ],
+                    right => [ qw( Germany Spain ) ],
+                },
+                2 => {
+                    left => [ 'Brazil' ],
+                    right => [ 'Spain' ],
+                },
+                3 => {
+                    champion => [ 'Brazil' ],
+                },
+            },
+        },
+        'PW' => {
+            paid => 1,
+            champion => 'England',
+            group_points => 10,
+            picks => {
+                0 => {
+                    left => [ qw( France England Netherlands Brazil ) ],
+                    right => [ qw( Argentina Germany Italy Portugal ) ],
+                },
+                1 => {
+                    left => [ qw( England Brazil ) ],
+                    right => [ qw( Argentina Portugal ) ],
+                },
+                2 => {
+                    left => [ 'England' ],
+                    right => [ 'Portugal' ],
+                },
+                3 => {
+                    champion => [ 'England' ],
+                },
+            },
+        },
+        'TB' => {
+            champion => 'Brazil',
+            group_points => 10,
+            picks => {
+                0 => {
+                    left => [ qw( Mexico England Netherlands Brazil ) ],
+                    right => [ qw( Argentina Germany Italy Spain ) ],
+                },
+                1 => {
+                    left => [ qw( England Brazil ) ],
+                    right => [ qw( Argentina Italy ) ],
+                },
+                2 => {
+                    left => [ 'Brazil' ],
+                    right => [ 'Argentina' ],
+                },
+                3 => {
+                    champion => [ 'Brazil' ],
+                },
+            },
+        },
+        'RA' => {
+            paid => 1,
+            champion => 'Spain',
+            group_points => 13,
+            picks => {
+                0 => {
+                    left => [ 'South Korea', qw( Ghana Netherlands Brazil ) ],
+                    right => [ qw( Argentina Germany Denmark Spain ) ],
+                },
+                1 => {
+                    left => [ qw( Ghana Netherlands ) ],
+                    right => [ qw( Argentina Spain ) ],
+                },
+                2 => {
+                    left => [ 'Netherlands' ],
+                    right => [ 'Spain' ],
+                },
+                3 => {
+                    champion => [ 'Spain' ],
+                },
+            },
+        },
+        'LL' => {
+            champion => 'England',
+            group_points => 11,
+            picks => {
+                0 => {
+                    left => [ qw( France England Cameroon Brazil ) ],
+                    right => [ qw( Mexico Germany Italy Spain ) ],
+                },
+                1 => {
+                    left => [ qw( England Brazil ) ],
+                    right => [ qw( Germany Spain ) ],
+                },
+                2 => {
+                    left => [ 'England' ],
+                    right => [ 'Spain' ],
+                },
+                3 => {
+                    champion => [ 'England' ],
+                },
+            },
+        },
+        'BN' => {
+            paid => 1,
+            champion => 'Brazil',
+            group_points => 11,
+            picks => {
+                0 => {
+                    left => [ qw( Mexico England Italy Brazil ) ],
+                    right => [ qw( France Germany Cameroon Spain ) ],
+                },
+                1 => {
+                    left => [ qw( England Brazil ) ],
+                    right => [ qw( Germany Spain ) ],
+                },
+                2 => {
+                    left => [ 'Brazil' ],
+                    right => [ 'Spain' ],
+                },
+                3 => {
+                    champion => [ 'Brazil' ],
+                },
+            },
+        },
+        'JA' => {
+            paid => 1,
+            champion => 'Argentina',
+            group_points => 11,
+            picks => {
+                0 => {
+                    left => [ qw( Mexico England Netherlands Brazil ) ],
+                    right => [ qw( Argentina USA Italy Spain ) ],
+                },
+                1 => {
+                    left => [ qw( England Brazil ) ],
+                    right => [ qw( Argentina Spain ) ],
+                },
+                2 => {
+                    left => [ 'Brazil' ],
+                    right => [ 'Argentina' ],
+                },
+                3 => {
+                    champion => [ 'Argentina' ],
+                },
+            },
+        },
+        'AA' => {
+            champion => 'Spain',
+            group_points => 11,
+            picks => {
+                0 => {
+                    left => [ qw( Mexico England Netherlands Brazil ) ],
+                    right => [ qw( Argentina Germany Italy Spain ) ],
+                },
+                1 => {
+                    left => [ qw( England Brazil ) ],
+                    right => [ qw( Germany Spain ) ],
+                },
+                2 => {
+                    left => [ 'England' ],
+                    right => [ 'Spain' ],
+                },
+                3 => {
+                    champion => [ 'Spain' ],
+                },
+            },
+        },
+        'DN2' => {
+            paid => 1,
+            champion => 'Italy',
+            group_points => 13,
+            picks => {
+                0 => {
+                    left => [ 'South Korea', qw( Germany Paraguay Brazil ) ],
+                    right => [ qw( Argentina England Italy Portugal ) ],
+                },
+                1 => {
+                    left => [ qw( Germany Brazil ) ],
+                    right => [ qw( England Italy ) ],
+                },
+                2 => {
+                    left => [ 'Germany' ],
+                    right => [ 'Italy' ],
+                },
+                3 => {
+                    champion => [ 'Italy' ],
+                },
+            },
+        },
+        'MN' => {
+            champion => 'Argentina',
+            group_points => 9,
+            picks => {
+                0 => {
+                    left => [ qw( France England Paraguay Brazil ) ],
+                    right => [ qw( Argentina Germany Italy Portugal ) ],
+                },
+                1 => {
+                    left => [ qw( England Brazil ) ],
+                    right => [ qw( Argentina Portugal ) ],
+                },
+                2 => {
+                    left => [ 'England' ],
+                    right => [ 'Argentina' ],
+                },
+                3 => {
+                    champion => [ 'Argentina' ],
+                },
             },
         },
     };

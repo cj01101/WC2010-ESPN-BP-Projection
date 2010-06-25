@@ -2,7 +2,7 @@ package Odds;
 
 # odds from http://www.oddschecker.com/football/internationals/world-cup
 
-sub get_odds
+sub get_group_odds
 {
     return {
         A => {
@@ -163,6 +163,120 @@ sub get_odds
                 Chile       => '3/5',
                 Switzerland => '6/4',
                 Honduras    => '100',
+            },
+        },
+    };
+}
+
+sub get_bracket_odds
+{
+    return {
+        Uruguay => {
+            side => 'left',
+            odds => {
+                0 => '10/11',
+                1 => '7/5',
+                2 => '5',
+                3 => '16',
+            },
+        },
+        'South Korea' => {
+            side => 'left',
+            odds => {
+                0 => '4',
+                1 => '9/2',
+                2 => '17',
+                3 => '80',
+            },
+        },
+        USA => {
+            side => 'left',
+            odds => {
+                0 => '7/4',
+                1 => '5/2',
+                2 => '17/2',
+                3 => '40',
+            },
+        },
+        Ghana => {
+            side => 'left',
+            odds => {
+                0 => '15/8',
+                1 => '3',
+                2 => '10',
+                3 => '50',
+            },
+        },
+        Netherlands => {
+            side => 'left',
+            odds => {
+                0 => '8/15',
+                1 => '13/10',
+                2 => '12/5',
+                3 => '13/2',
+            },
+        },
+        Slovakia => {
+            side => 'left',
+            odds => {
+                0 => '8',
+                1 => '16',
+                2 => '35',
+                3 => '125',
+            },
+        },
+        Argentina => {
+            side => 'right',
+            odds => {
+                0 => '8/15',
+                1 => '1',
+                2 => '12/5',
+                3 => '9/2',
+            },
+        },
+        Mexico => {
+            side => 'right',
+            odds => {
+                0 => '6',
+                1 => '10',
+                2 => '25',
+                3 => '80',
+            },
+        },
+        Germany => {
+            side => 'right',
+            odds => {
+                0 => '19/10',
+                1 => '11/4',
+                2 => '11/2',
+                3 => '11',
+            },
+        },
+        England => {
+            side => 'right',
+            odds => {
+                0 => '17/10',
+                1 => '13/5',
+                2 => '5',
+                3 => '10',
+            },
+        },
+        Paraguay => {
+            side => 'right',
+            odds => {
+                0 => '5/4',
+                1 => '7/2',
+                2 => '11',
+                3 => '33',
+            },
+        },
+        Japan => {
+            side => 'right',
+            odds => {
+                0 => '11/4',
+                1 => '8',
+                2 => '25',
+                3 => '80',
             },
         },
     };
