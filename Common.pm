@@ -23,7 +23,7 @@ sub get_ranked_users
     my @unique_expectation_values = grep( ! $saw{ $_ } ++, values %{ $expectation } ); # unique expectation values
     foreach my $value ( sort { $b <=> $a } @unique_expectation_values ) {
         foreach my $user ( keys %{ $expectation } ) {
-            push( @ranked, $user ) if ( $expectation->{ $user } == $value ); # build @ranked user list
+            push( @ranked, $user ) if ( $expectation->{ $user } eq $value ); # build @ranked user list
         }
     }
     return @ranked;
