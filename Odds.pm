@@ -264,19 +264,19 @@ sub get_bracket_odds
         Germany => {
             side => 'right',
             odds => {
-                0 => '101/100',
-                1 => '11/4',
-                2 => '9/2',
-                3 => '9',
+                0 => 0,
+                1 => '27/25',
+                2 => '5/2',
+                3 => '5',
             },
         },
         England => {
             side => 'right',
             odds => {
-                0 => '17/20',
-                1 => '3',
-                2 => '11/2',
-                3 => '12',
+                0 => undef,
+                1 => undef,
+                2 => undef,
+                3 => undef,
             },
         },
         Paraguay => {
