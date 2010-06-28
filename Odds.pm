@@ -210,19 +210,19 @@ sub get_bracket_odds
         Netherlands => {
             side => 'left',
             odds => {
-                0 => '19/100',
-                1 => '8/5',
-                2 => '11/4',
-                3 => '13/2',
+                0 => 0,
+                1 => '27/20',
+                2 => '15/8',
+                3 => '6',
             },
         },
         Slovakia => {
             side => 'left',
             odds => {
-                0 => '9/2',
-                1 => '16',
-                2 => '50',
-                3 => '200',
+                0 => undef,
+                1 => undef,
+                2 => undef,
+                3 => undef,
             },
         },
         Brazil => {
