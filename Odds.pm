@@ -282,19 +282,19 @@ sub get_bracket_odds
         Paraguay => {
             side => 'right',
             odds => {
-                0 => '63/100',
-                1 => '17/4',
-                2 => '14',
-                3 => '40',
+                0 => 0,
+                1 => '57/20',
+                2 => '9',
+                3 => '33',
             },
         },
         Japan => {
             side => 'right',
             odds => {
-                0 => '139/100',
-                1 => '8',
-                2 => '30',
-                3 => '80',
+                0 => undef,
+                1 => undef,
+                2 => undef,
+                3 => undef,
             },
         },
         Portugal => {
