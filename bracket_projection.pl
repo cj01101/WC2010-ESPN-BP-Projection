@@ -44,7 +44,7 @@ foreach my $user ( keys %{ $picks } ) {
 
                 # how many points for getting this pick right?
                 my $possible_points = $scores->{ $round }{ pick };
-                $possible_points += $scores->{ $round }{ side } if ( $side eq $odds->{ $team }{ side } );
+                $possible_points += $scores->{ $round }{ side } if ( $odds->{ $team }{ side } && $side eq $odds->{ $team }{ side } );
 
                 # add to the expectation for this user
                 $expectation->{ $user } += $possible_points * Common->get_percentage( $odds->{ $team }{ odds }{ $round } );
