@@ -175,9 +175,9 @@ sub get_bracket_odds
             side => 'left',
             odds => {
                 0 => 0,
-                1 => '2/5',
-                2 => '47/10',
-                3 => '13',
+                1 => 0,
+                2 => '57/25',
+                3 => '9',
             },
         },
         'South Korea' => {
@@ -202,9 +202,9 @@ sub get_bracket_odds
             side => 'left',
             odds => {
                 0 => 0,
-                1 => '17/10',
-                2 => '10',
-                3 => '28',
+                1 => undef,
+                2 => undef,
+                3 => undef,
             },
         },
         Netherlands => {
