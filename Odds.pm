@@ -211,9 +211,9 @@ sub get_bracket_odds
             side => 'left',
             odds => {
                 0 => 0,
-                1 => '13/8',
-                2 => '11/4',
-                3 => '8',
+                1 => 0,
+                2 => '7/20',
+                3 => '9/4',
             },
         },
         Slovakia => {
@@ -229,9 +229,9 @@ sub get_bracket_odds
             side => 'left',
             odds => {
                 0 => 0,
-                1 => '4/9',
-                2 => '10/11',
-                3 => '5/2',
+                1 => undef,
+                2 => undef,
+                3 => undef,
             },
         },
         Chile => {
