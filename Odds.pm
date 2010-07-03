@@ -247,9 +247,9 @@ sub get_bracket_odds
             side => 'right',
             odds => {
                 0 => 0,
-                1 => '4/6',
-                2 => '15/8',
-                3 => '7/2',
+                1 => undef,
+                2 => undef,
+                3 => undef,
             },
         },
         Mexico => {
@@ -265,9 +265,9 @@ sub get_bracket_odds
             side => 'right',
             odds => {
                 0 => 0,
-                1 => '11/10',
-                2 => '11/4',
-                3 => '7',
+                1 => 0,
+                2 => '10/11',
+                3 => '17/10',
             },
         },
         England => {
