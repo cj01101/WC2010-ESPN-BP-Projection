@@ -283,9 +283,9 @@ sub get_bracket_odds
             side => 'right',
             odds => {
                 0 => 0,
-                1 => '22/5',
-                2 => '14',
-                3 => '40',
+                1 => undef,
+                2 => undef,
+                3 => undef,
             },
         },
         Japan => {
@@ -310,8 +310,8 @@ sub get_bracket_odds
             side => 'right',
             odds => {
                 0 => 0,
-                1 => '19/100',
-                2 => '15/13',
+                1 => 0,
+                2 => '4/5',
                 3 => '11/4',
             },
         },
