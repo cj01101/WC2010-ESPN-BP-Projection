@@ -176,8 +176,8 @@ sub get_bracket_odds
             odds => {
                 0 => 0,
                 1 => 0,
-                2 => '57/25',
-                3 => '9',
+                2 => undef,
+                3 => undef,
             },
         },
         'South Korea' => {
@@ -212,8 +212,8 @@ sub get_bracket_odds
             odds => {
                 0 => 0,
                 1 => 0,
-                2 => '7/20',
-                3 => '9/4',
+                2 => 0,
+                3 => '7/5',
             },
         },
         Slovakia => {
