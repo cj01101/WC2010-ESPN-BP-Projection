@@ -1,5 +1,7 @@
 package Common;
 
+use strict;
+
 sub get_percentage # translate 2/1 => 0.33
 {
     my ( $self, $odds ) = @_;

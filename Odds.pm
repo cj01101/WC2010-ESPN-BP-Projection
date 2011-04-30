@@ -1,5 +1,7 @@
 package Odds;
 
+use strict;
+
 # odds from http://www.oddschecker.com/football/internationals/world-cup
 
 sub get_group_odds
