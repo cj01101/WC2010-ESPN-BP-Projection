@@ -1,5 +1,7 @@
 package Picks;
 
+use strict;
+
 sub get_group_picks
 {
     # NOTE: the keys of this hash should be the entry name.  I have made them anonymous
